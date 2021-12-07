@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,97 @@ body {
 }
 
 /* Add styles here! */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #999999;
+  line-height: 1.6;
+}
+
+strong {
+  color: #008f58;
+}
+
+.shadow {
+  border-width: 6px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.shadow-dark {
+  border-color: #626262;
+}
+
+.shadow-ochre {
+  border-color: #c99200;
+}
+
+header {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+header h1 {
+  margin-bottom: 2.5rem;
+}
+
+header p {
+  font-size: large;
+}
+
+header {
+  background-color: white;
+}
+
+main > * {
+  /* Try to satisfy the no-margin-at-component-boundaries rule. */
+  margin: 70px 0;
+}
+
+.intro-chunk {
+  max-width: 300px;
+  /* Highly annoying: the spacing here has to be consistent with the spacing in .card. */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.indented-heading {
+  max-width: fit-content;
+  padding: 20px 35px;
+  background-color: #ffbf00;
+  margin-top: -10px;
+  margin-left: -35px;
+}
