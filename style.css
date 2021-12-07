@@ -22,12 +22,12 @@ body {
 }
 
 body {
-  background-color: #999999;
+  background-color: hsl(0deg, 0%, 60%);
   line-height: 1.6;
 }
 
 strong {
-  color: #008f58;
+  color: hsl(160deg, 100%, 30%);
 }
 
 .shadow {
@@ -39,16 +39,20 @@ strong {
 }
 
 .shadow-dark {
-  border-color: #626262;
+  border-color: hsl(0deg, 0%, 30%);
 }
 
-.shadow-ochre {
-  border-color: #c99200;
+.background-gold {
+  background-color: hsl(45deg, 100%, 50%);
+}
+
+.shadow-gold {
+  border-color: hsl(45deg, 100%, 40%);
 }
 
 header {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 64px;
+  padding-bottom: 32px;
 }
 
 h1 {
@@ -56,31 +60,31 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 header h1 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 48px;
 }
 
 header p {
-  font-size: large;
+  font-size: 1.25rem;
 }
 
 header {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
 }
 
 main > * {
   /* Try to satisfy the no-margin-at-component-boundaries rule. */
-  margin: 70px 0;
+  margin: 64px 0;
 }
 
 .intro-chunk {
   max-width: 300px;
   /* Highly annoying: the spacing here has to be consistent with the spacing in .card. */
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .max-width-wrapper {
@@ -91,16 +95,15 @@ main > * {
 
 .card {
   background-color: white;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 8px;
 }
 
 .indented-heading {
   max-width: fit-content;
-  padding: 20px 35px;
-  background-color: #ffbf00;
-  margin-top: -10px;
-  margin-left: -35px;
+  padding: 16px 40px;
+  margin-top: -16px;
+  margin-left: -40px;
 }
